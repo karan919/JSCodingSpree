@@ -14,7 +14,6 @@ function maxSum(nums, k) {
 
     if (sum > max) {
       max = sum;
-      start = i;
     }
   }
   return max;
